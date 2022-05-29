@@ -13,9 +13,19 @@ function Project() {
         setHide1(false)
         
       }
+      const show11 = () => {
+    
+        setHide1(true)
+        
+      }
       const show2 = () => {
     
         setHide2(false)
+        
+      }
+      const show12 = () => {
+    
+        setHide1(true)
         
       }
       const show3 = () => {
@@ -23,9 +33,19 @@ function Project() {
         setHide3(false)
         
       }
+      const show13 = () => {
+    
+        setHide1(true)
+        
+      }
       const show4 = () => {
     
         setHide4(false)
+        
+      }
+      const show14 = () => {
+    
+        setHide1(true)
         
       }
       const show5 = () => {
@@ -33,28 +53,33 @@ function Project() {
         setHide5(false)
         
       }
+      const show15 = () => {
+    
+        setHide1(true)
+        
+      }
     const soot = () => {
         
-if(val==1){
+if(val==="1"){
 alert("1")
   show1()
-}else if(val==2){
+}else if(val==="2"){
     alert("2")  
     show2() 
 }
-else if(val==3){
+else if(val==="3"){
     alert("3") 
     show3()  
 }
-else if(val==4){
+else if(val==="4"){
     alert("4") 
     show4()  
 }
-else if(val==5){
+else if(val==="5"){
     alert("5")  
     show5() 
 }else{
-    alert("No")   
+    alert("Please Enter Correct Number");   
 }
 
 
@@ -66,19 +91,19 @@ else if(val==5){
     <div className="main-div">
         <div className="main-div-1">
         {
-              hide1? null: <div className="div-1"></div>
+              hide1? null: <div className="div-1" onClick={show11} ></div>
             }
               {
-              hide2? null: <div className="div-2"></div>
+              hide2? null: <div className="div-2" onClick={show12}></div>
             }
               {
-              hide3? null: <div className="div-3"></div>
+              hide3? null: <div className="div-3" onClick={show13}></div>
             }
               {
-              hide4?null:  <div className="div-4"></div>
+              hide4?null:  <div className="div-4" onClick={show14}></div>
             }
               {
-              hide5? null:  <div className="div-5"></div>
+              hide5? null:  <div className="div-5" onClick={show15}></div>
             }
 
         </div>
