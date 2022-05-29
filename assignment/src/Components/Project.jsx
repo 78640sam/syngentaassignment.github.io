@@ -84,8 +84,8 @@ function Project() {
     }
 
 
-    
-    const soot = () => {
+
+    const shoot = () => {
 
         if (val === "1") {
             // alert("1")
@@ -107,6 +107,7 @@ function Project() {
             show5()
         } else {
             alert("Please Enter Correct Number");
+            
         }
 
 
@@ -166,7 +167,7 @@ function Project() {
                         setVal(el.target.value);
 
                     }} /><br />
-                    <button className="btn" onClick={soot} >Shoot</button>
+                    <button className="btn" onClick={shoot} >Shoot</button>
 
                 </div>
             </div>
