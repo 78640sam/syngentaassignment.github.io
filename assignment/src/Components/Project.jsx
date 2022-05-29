@@ -25,7 +25,7 @@ function Project() {
       }
       const show12 = () => {
     
-        setHide1(true)
+        setHide2(true)
         
       }
       const show3 = () => {
@@ -35,7 +35,7 @@ function Project() {
       }
       const show13 = () => {
     
-        setHide1(true)
+        setHide3(true)
         
       }
       const show4 = () => {
@@ -45,7 +45,7 @@ function Project() {
       }
       const show14 = () => {
     
-        setHide1(true)
+        setHide4(true)
         
       }
       const show5 = () => {
@@ -55,7 +55,7 @@ function Project() {
       }
       const show15 = () => {
     
-        setHide1(true)
+        setHide5(true)
         
       }
     const soot = () => {
